@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { User, MapPin, Calendar, Mail, Github, Linkedin, Heart, Code } from 'lucide-react'
+import { User, MapPin, Calendar, Mail, Github, Linkedin } from 'lucide-react'
 
 const About = () => {
   const stats = [
@@ -126,7 +126,7 @@ const About = () => {
                 writing quality software.
               </p>
               <p className="text-gray-300 leading-relaxed mb-6">
-                FYI This website is completely vibe coded, including some of the text, so if you see any bugs, I'm not to blame. Experience and technical skills are factually correct.
+                FYI This website is completely vibe coded, including some of the text, so if you see any bugs, I'm not to blame. Experience and technical skills <area shape="" coords="" href="" alt="" /> factually correct.
               </p>
             </div>
           
