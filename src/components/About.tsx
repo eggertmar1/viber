@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { User, MapPin, Calendar, Mail, Github, Linkedin } from 'lucide-react'
+import {  MapPin, Calendar, Mail, Github, Linkedin } from 'lucide-react'
 
 const About = () => {
   const stats = [
