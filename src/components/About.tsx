@@ -40,11 +40,11 @@ const About = () => {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            {/* Profile image placeholder */}
+            {/* Profile image */}
             <div className="relative">
               <div className="w-80 h-80 mx-auto rounded-full bg-gradient-to-br from-primary-500 to-primary-600 p-1">
-                <div className="w-full h-full rounded-full bg-dark-800 flex items-center justify-center">
-                  <User size={120} className="text-primary-400" />
+                <div className="w-full h-full rounded-full bg-dark-800 flex items-center justify-center overflow-hidden">
+                  <img src="/smile.png" alt="Eggert smiling" className="w-full h-full object-cover rounded-full" />
                 </div>
               </div>
               <motion.div
